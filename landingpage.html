@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>RALLY TRADE</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<br>
+
+<body>
+<style>
+ul {
+  list-style-type: none;
+  margin-bottom: 0%;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+</style>
+<img src="data:image/png;base64,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">
+<style>
+ul {
+  list-style-type: none;
+  margin: 0%;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+li {
+  float: Right;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: white;
+}
+</style>
+<ul>
+<b>
+  <li><a href="#+2349018740318">+2349018740318</a></li>
+  <li><a href="#Login|Register">LOGIN|REGISTER</a></li>
+  <li><a href="#HOME|ABOUT US|EVENTS|TRADING|PARTNERS">HOME|ABOUT US|EVENTS|TRADING|PARTNERS</a></li>
+</b>
+</ul>
+
+
+<img src="https://images.pexels.com/photos/999267/pexels-photo-999267.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940; alt="coorperate male on suite" width="1350" height="500" >
+<h1 style="font-size:15px;"> SIGNUP WITH RALLYTRADE IN FEW MINUTES</h1>
+
+
+
+
+<form action="/action_page.php">
+<label for="fname">REGISTRATION:</label><br>
+<label for="fname">First name:</label><br>
+<input type="text" id="fname" name="fname"><br><br>
+<form action="/action_page.php">
+<label for="fname">last name:</label><br>
+<input type="text" id="lname" name="lname"><br><br>
+<form action="/action_page.php">
+<label for="fname">Email:</label><br>
+<input type="text" id="email" name="email"><br><br>
+<form action="/action_page.php">
+<label for="Phonenumber">Phone number:</label><br>
+<input type="text" id="phonenumber" name="phonenumber"><br><br>
+<form action="/action_page.php">
+<label for="country">Country:</label><br>
+<input type="text" id="country" name="country"><br><br>
+<input style="background-color: Green;" type="submit" value="Open account">
+</form>
+
+
+<pre>
+<p1>Open your account to start trading today!</p1>
+
+Standard account: $100 +bonus
+competitive spreads all round offerings
+
+Basic account:$100 + bonus 
+Same competitive spreads,smaller trade sizes
+
+Pro account:$500 + bonus
+No commission,no requotes,super tight spreads.
+</pre>
+
+</body>
+</html>
